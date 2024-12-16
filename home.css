@@ -6,12 +6,9 @@
     box-sizing: border-box;
     color: aliceblue;
     
-    
-    
 }
 body{
   background-color: black;
-  width: 1300.5px;
 }
 
 .header{
@@ -24,11 +21,6 @@ body{
 
     
 
-}
-.logo1{
-    width: 100%;
-    margin-top: 0;
-    padding-top: 0;
 }
 
 .container-1{ 
@@ -422,7 +414,26 @@ label{
     padding-top: 10px;
     
 }
+.contact-head{
+    background-color: red;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    height: fit-content;
+    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
+
+.contact-form{
+    background-color: rgba(0, 0, 0, 0.767);
+    backdrop-filter: blur(10px);
+    padding: 50px;
+}
+.map-head{
+    background-color: rgba(0, 0, 0, 0.767);
+    backdrop-filter: blur(10px);
+    padding: 50px;
+}
 .login{
     background-color: rgba(0, 0, 0, 0.767);
     backdrop-filter: blur(10px);
